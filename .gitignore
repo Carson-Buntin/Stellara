@@ -1,45 +1,7 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-
-# Virtual Environment
 .venv/
-venv/
-
-# Environment Variables
+__pycache__/
+*.pyc
 .env
-.env.*
-
-# FastAPI / Logs
-*.log
-
-# Test Coverage
-.coverage
-htmlcov/
-.pytest_cache/
-
-# Build Artifacts
-build/
-dist/
 *.egg-info/
-
-# IDEs
-.vscode/
-.idea/
-
-# OS Files
-.DS_Store
-Thumbs.db
-
-# React / Node
-frontend/node_modules/
-frontend/dist/
-
-# Docker
-*.tar
-
-# Database Files (if using SQLite locally)
-*.db
-*.sqlite3
+dist/
+.pytest_cache/
